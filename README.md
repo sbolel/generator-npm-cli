@@ -2,6 +2,10 @@
 
 Author: Sinan Bolel <sinanbolel@gmail.com>
 
+## Usage
+
+Run `npm build`
+
 ## Package
 
 ### Dependencies
