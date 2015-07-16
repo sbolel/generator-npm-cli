@@ -4,9 +4,9 @@ var argv = require('optimist')
               .alias('h', 'help')
               .argv,
     prompt = require('prompt'),
-    index = require('./../lib/index'),
     app = require('./../lib/app'),
-    help = require('./../lib/help');
+    help = require('./../lib/help'),
+    index = require('./../lib/index');
 
 prompt.override = argv;
 prompt.message = '';
@@ -33,7 +33,6 @@ if (argv._.length === 0) {
     help.showHelp(argv._[0]);
 
   } else {
-    // Top-level router
     switch (argv._[0]) {
 
       case 'init':

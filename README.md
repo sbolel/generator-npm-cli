@@ -1,12 +1,22 @@
-# npm module with CLI 
+# `npm` module with a CLI
 
 Author: Sinan Bolel <sinanbolel@gmail.com>
 
-## Usage
+An _in-progress_ generator template for a global npm module with command-line tools (CLI).
 
-Run `npm build`
+Requires [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.org/), which can both be installed by following the instructions on https://nodejs.org/. Installing Node.js also installs npm.
 
-## Package
+> The command line tools require Node.js version 0.10.0 or greater.
+
+Once you have Node.js and npm installed, you can install the command-line tools via npm:
+
+#### Building from source
+
+`git clone https://bitbucket.org/sbolel/generator-npm-cli-module` - Clone repo & `cd` into directory.
+
+`npm build` - Run this command in the cloned directory to build from the source (runs `npm install -g ./`).
+
+## Package details
 
 ### Dependencies
 

@@ -13,15 +13,14 @@
     "yeoman-generator"
   ],
   "license": "MIT",
-  "bugs": "https://bitbucket.org/sbolel/generator-npm-cli-module/issues",
-  "homepage": "https://bitbucket.org/sbolel/generator-npm-cli-module",
+  "homepage": "https://github.com/sbolel/generator-npm-cli-module",
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/sbolel/generator-npm-cli-module"
+    "url": "git@github.com:sbolel/generator-npm-cli-module.git"
   },
   "main": "lib/app.js",
   "bin": {
-    "generator-package": "./bin/generator-package"
+    "generator-npm-cli-module": "./bin/generator-npm-cli-module"
   },
   "directories": {
     "bin": "./bin",
