@@ -49,6 +49,14 @@ if (argv._.length === 0) {
         help.showHelp();
         break;
 
+      case '-v':
+      case 'v':
+      case 'ver':
+      case 'version':
+      case '--version':
+        help.showVersion();
+        break;
+
       default:
         console.log('\n' +
           'Command not found. Use `generator-package --help` for a list of commands or\n' +
