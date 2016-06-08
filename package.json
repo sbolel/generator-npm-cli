@@ -1,6 +1,6 @@
 {
   "name": "generator-npm-cli",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Generator for a global npm module with a CLI.",
   "author": "Sinan Bolel <sinanbolel@gmail.com> (http://sinanbolel.com)",
   "preferGlobal": true,
@@ -33,20 +33,21 @@
     "./package.json"
   ],
   "engines": {
-    "node": ">=0.12.0"
+    "node": ">=5.7.0"
   },
   "scripts": {
     "build": "npm install -g ./",
+    "start": "npm run debug",
     "debug": "DEBUG=* nodemon ./bin/generator-npm-cli",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "chalk": "^1.1.0",
+    "chalk": "^1.1.3",
     "debug": "^2.2.0",
     "optimist": "^0.6.1",
-    "prompt": "^0.2.14"
+    "prompt": "^1.0.0"
   },
   "devDependencies": {
-    "nodemon": "^1.3.7"
+    "nodemon": "^1.9.2"
   }
 }

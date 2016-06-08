@@ -1,12 +1,11 @@
 #!/usr/bin/env node
+'use strict';
 
-var argv = require('optimist')
-              .alias('h', 'help')
-              .argv,
-    prompt = require('prompt'),
-    app = require('./../lib/app'),
-    help = require('./../lib/help'),
-    index = require('./../lib/index');
+const argv = require('optimist').alias('h', 'help').argv;
+const app = require('../lib/app');
+const help = require('../lib/help');
+const index = require('../lib/index');
+const prompt = require('prompt');
 
 prompt.override = argv;
 prompt.message = '';
